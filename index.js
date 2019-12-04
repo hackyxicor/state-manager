@@ -1,3 +1,5 @@
+import { useContext, createContext, useReducer } from 'react';
+
 const initialState = {};
 const store = createContext(initialState);
 const { Provider } = store;
@@ -26,6 +28,7 @@ function subscribeToEvent(eventName) {
 
 export {
     EventProvider,
+    store,
     storeEvent,
     deleteEvent,
     subscribeToEvent 

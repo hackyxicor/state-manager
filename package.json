@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hackyxicor/state-manager.git"
+  },
   "npmName": "state manager",
   "dependencies": {
     "@babel/runtime": "^7.7.4",
